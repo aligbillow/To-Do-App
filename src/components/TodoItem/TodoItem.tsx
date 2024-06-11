@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from './TodoItem.module.css';
-import { TbTrash } from 'react-icons/tb';
-import { BsFillCheckCircleFill } from "react-icons/bs";
+
 
 interface Task {
     id: string;
